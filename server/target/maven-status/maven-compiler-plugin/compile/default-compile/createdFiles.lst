@@ -1,0 +1,14 @@
+hannotte_td_graphql\controler\BlogMutationTeam.class
+hannotte_td_graphql\TdGraphqlApplication.class
+hannotte_td_graphql\controler\PlayerQuery.class
+hannotte_td_graphql\domain\Post.class
+hannotte_td_graphql\dao\PlayerRepository.class
+hannotte_td_graphql\dao\TeamRepository.class
+hannotte_td_graphql\domain\Player.class
+hannotte_td_graphql\controler\GraphqlConfiguration.class
+hannotte_td_graphql\dao\PostDao.class
+hannotte_td_graphql\controler\BlogQuery.class
+hannotte_td_graphql\controler\BlogMutation.class
+hannotte_td_graphql\controler\TeamsQuery.class
+hannotte_td_graphql\controler\BlogMutationPlayer.class
+hannotte_td_graphql\domain\Team.class

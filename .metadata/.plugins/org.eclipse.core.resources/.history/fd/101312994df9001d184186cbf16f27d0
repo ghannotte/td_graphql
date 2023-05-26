@@ -1,0 +1,5 @@
+package hannotte_td_graphql.controler;
+
+public class BlogMutationPlayer {
+
+}

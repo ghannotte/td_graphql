@@ -1,0 +1,19 @@
+package hannotte_td_graphql.dao;
+import java.util.List;
+
+import hannotte_td_graphql.domain.Player;
+public class PlayerRepository {
+
+	private List<Player> players;
+	
+	public PlayerRepository(List<Player> players) {
+
+		this.players = players;
+	}
+
+	public List<Player> getAllTeams() {
+		
+		return this.players;
+	}		
+	
+}

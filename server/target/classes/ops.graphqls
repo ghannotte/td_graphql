@@ -1,0 +1,14 @@
+# The Root Query for the application
+type Query {
+    recentPosts(count: Int = 100, offset: Int = 0): [Post]!
+    
+    allTeams: [Team]!
+    allPlayers: [Player]!
+}
+
+# The Root Mutation for the application
+type Mutation {
+    writePost(id: String!, title: String!, text: String!, category: String) : Post!
+    writePlayer(id: String! , name: String!, firstname: String!, team: String!,position: String): Player!
+    writeTeam(id: String! , name: String!, city: String): Team!
+}

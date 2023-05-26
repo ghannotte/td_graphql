@@ -1,0 +1,35 @@
+package hannotte_td_graphql.domain;
+
+public class Team {//Cette classe me permet de définir le format de ma table Team
+
+	private String id;//Je définis les différentes collones
+
+	private String name;
+	
+	private String city;
+
+	public String getId() {//Je définis les methodes pour lire une collone
+		return id;
+	}
+
+	public void setId(String id) {//Je définis les methodes insérer la donnée dans une collone
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getCity() {
+		return city;
+	}
+
+	public void setCity(String city) {
+		this.city = city;
+	}	
+	
+}
